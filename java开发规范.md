@@ -1,1 +1,1 @@
-![image](//right.png)
+![image](./right.png)
