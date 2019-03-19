@@ -1,6 +1,6 @@
 # 命名风格
 
-### 1. 禁止==下划线或者美元符号==开始，也不能==下划线或者美元符号==结束
+### 1. 禁止下划线或者美元符号开始，也不能下划线或者美元符号结束
 
 
 
@@ -9,7 +9,7 @@
 int _name,$name,name_,name$;
 ```
 
-### 2.代码中严禁使用==拼音与英文==混合。即使纯拼音命名也要避免采用。
+### 2.代码中严禁使用拼音与英文混合。即使纯拼音命名也要避免采用。
 
 ```java
 //正例：国际通用的名称，城市名称
@@ -18,7 +18,7 @@ String taobao,youku,hangzhou;
 String bangDingCamera;//绑定摄像头
 ```
 
-### 3.==类名==：使用==UpperCamelCase==风格，如：BookTool；不过对于已经==缩写后的单词==，则==应该全部大写==，如：VideoForNBA
+### 3.类名：使用UpperCamelCase风格，如：BookTool；不过对于已经缩写后的单词，则应该全部大写，如：VideoForNBA
 
 ```java
 //正例：
@@ -26,7 +26,7 @@ Class CameraRecord;//大驼峰命名
 Class TCPService;//TCP专有名词，大写
 ```
 
-### 4.==方法名==、==参数名==、==成员变量==、==局部变量==：都统一使用==lowerCamelCase==风格。
+### 4.方法名、参数名、成员变量、局部变量：都统一使用lowerCamelCase风格。
 
 ```java
 //正例：
@@ -34,14 +34,14 @@ String loginName;  //小驼峰命名
 private void  getUserInformation(String userName,int userAge);//小驼峰命名
 ```
 
-### 5.==常量名==：全部==大写==，单词间用下划线隔开，力求语义表达完整清楚，不要嫌名字长。
+### 5.常量名：全部大写，单词间用下划线隔开，力求语义表达完整清楚，不要嫌名字长。
 
 ```java
 //正例：
 private final int SHENZHEN_IP_PORT=8060;
 ```
 
-### 6.==抽象类==：命名使用Abstract或Base开头。==异常类==命名使用 Exception 结尾;==测试类== 命名以它要测试的类的名称开始，以 Test 结尾。
+### 6.抽象类：命名使用Abstract或Base开头。异常类命名使用 Exception 结尾;测试类 命名以它要测试的类的名称开始，以 Test 结尾。
 
 ### 7.类型与中括号紧挨相连来表示数组
 
@@ -52,7 +52,7 @@ int[] arrayDemo;
 String imageList[];
 ```
 
-### 8.==包名==：统一使用小写，点分隔符之间有且仅有一个自然语义的英语单词。包名统一使用单数形式
+### 8.包名：统一使用小写，点分隔符之间有且仅有一个自然语义的英语单词。包名统一使用单数形式
 
 ```java
 //正例：
